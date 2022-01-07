@@ -15,6 +15,10 @@ export interface TransferToS3Configuration {
   };
   s3: {
     /**
+     * The End Point for the S3 bucket
+     */
+    endPoint: string;
+    /**
      * The name of your bucket on S3
      */
     bucket: string;
